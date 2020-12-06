@@ -1,0 +1,66 @@
+ion-content {
+    --background: rgb(252, 246, 195);
+    font-family: 'Questrial', Impact;
+    font-size: 1em;
+    font-weight: normal;
+
+  
+    .header {
+      display: flex;
+    }
+    .logo {
+      margin: auto;
+      color: #fff;
+      width: 50%;
+      border-radius: 10px;
+      text-align: left;
+      img {
+        margin-top: 20px;
+        margin-left: 70px;
+      }
+    }
+  
+    .go-back {
+      margin: auto;
+      width: 50%;
+      border-radius: 10px;
+      text-align: right;
+      img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+      }
+    }
+
+    .go-back:active {
+        width: 48%;
+      }
+
+    ion-card {
+        padding-top: 10px;
+        margin: 10px auto;
+        background-color: white;
+        text-align: center;
+      width: 80%;
+
+      ion-card-content {
+        font-family: 'Questrial', Impact;
+        font-size: 1em;
+        font-weight: normal;
+        img{
+            width: 40px;
+            margin: auto;
+          }
+      }
+      }
+
+.back{
+background-color: rgb(255, 225, 126);
+}
+
+.back:active {
+    width: 78%;
+  }
+      
+  }
+  

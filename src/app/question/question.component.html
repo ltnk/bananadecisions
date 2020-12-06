@@ -1,0 +1,8 @@
+<ion-card *ngFor="let question of questions" class="questions" (click)="goTo('result')" (click)="getRandomNumber()">
+  <div>
+    <img src="{{ question.img }}" alt="" />
+  </div>
+  <ion-card-content>
+    {{ question.title }}
+  </ion-card-content>
+</ion-card>

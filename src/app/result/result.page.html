@@ -1,0 +1,20 @@
+<ion-content>
+  <div class="header">
+    <div class="back-btn" (click)="goBack('home')">
+      <img src="../../assets/return.png" alt="" />
+    </div>
+    <div class="logo">
+      <img src="../../assets/banana.png" alt="" width="80px" />
+    </div>
+  </div>
+
+  <app-result-detailed></app-result-detailed>
+
+  <ion-card (click)="goBack('home')">
+    <ion-card-content>
+      <img src="../../assets/magic.png" alt="" />
+      Repose-moi une question !
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,26 @@
+
+ion-card:active{
+  width: 78%;
+} 
+
+
+ion-card {
+  padding-top: 10px;
+  margin: 10px auto;
+  background-color: white;
+  text-align: center;
+width: 80%;
+  div{
+    text-align: center;
+    img{
+      width: 40px;
+      margin: auto;
+    }
+  }
+
+ion-card-content {
+  font-family: 'Questrial', Impact;
+  font-size: 1em;
+  font-weight: normal;
+}
+}

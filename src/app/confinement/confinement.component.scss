@@ -1,0 +1,38 @@
+
+    ion-card {
+        text-align: center;
+        width: 90%;
+        margin: 15px auto;
+      ion-card-header {
+        img {
+          width: 30px;
+          margin: 5px auto;
+      }
+        ion-card-subtitle {
+          font-family: 'Questrial', Impact;
+          font-size: 1em;
+          font-weight: normal;
+          
+        }
+        ion-card-title {
+          font-family: 'Questrial', Impact;
+          font-size: 1em;
+          font-weight: bold;
+          
+        }
+      }
+      ion-card-content {
+        font-family: 'Questrial', Impact;
+        font-size: 1em;
+        font-weight: normal;
+        
+        img{
+            width: 30px;
+            margin: 5px auto;
+        }
+      }
+    }
+  
+    ion-card:active {
+      width: 88%;
+  }
